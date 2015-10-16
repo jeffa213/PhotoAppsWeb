@@ -1,2 +1,11 @@
 //Welcome to the app
-<button>
+<form id="form1" runat="server"> 
+ <div> 
+     <canvas id="canasp" width="100" height="100"> 
+     </canvas><br /> 
+     <asp:Image ID="imgASP" runat="server"/> 
+     <asp:Button ID="btnSave" runat="server" Text="Save Image"> 
+     </asp:Button> 
+ </div> 
+ </form>
+
